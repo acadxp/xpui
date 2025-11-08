@@ -1,5 +1,6 @@
 import React from "react";
 import { tv, type VariantProps } from "tailwind-variants";
+import { cn } from "@/lib/utils";
 
 const button = tv({
   base: [
@@ -63,7 +64,7 @@ const button = tv({
   defaultVariants: {
     variant: "primary",
     size: "md",
-    pixelated: false,
+    pixelated: true,
   },
 });
 
@@ -78,7 +79,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ) => {
     return (
       <button
-        className={button({ variant, size, pixelated, className })}
+        className={cn(button({ variant, size, pixelated }), className)}
         ref={ref}
         disabled={disabled}
         {...props}
