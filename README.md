@@ -194,11 +194,11 @@ MIT © [DripCode-Studio](https://github.com/DripCode-Studio)
 - [NPM Package](https://www.npmjs.com/package/@acadxp/xpui)
 - [GitHub Repository](https://github.com/acadxp/xpui)
 - [Report Issues](https://github.com/acadxp/xpui/issues)
-- [AcadXP Platform](https://github.com/acadxp)
+- [AcadXP Platform](https://acadxp.vercel.app/)
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the AcadXP Team</p>
+  <p>Made with ❤️ by the <a href="https://dripcodestudio.com/">DripCode Studio</a></p>
   <p>⭐ Star us on GitHub if you find this project helpful!</p>
 </div>
