@@ -44,10 +44,10 @@
     "./styles": "./dist/xpui.css"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "storybook dev -p 6006",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "storybook dev -p 6006",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
@@ -56,7 +56,10 @@
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:major": "npm version major && npm publish && git push --follow-tags",
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o storybook-static",
+    "preview-storybook": "npx serve storybook-static"
   },
   "peerDependencies": {
     "@tailwindcss/vite": "^4.1.17",
@@ -71,6 +74,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
+    "@storybook/addon-docs": "10.0.6",
+    "@storybook/addon-onboarding": "10.0.6",
+    "@storybook/react": "^10.0.6",
+    "@storybook/react-vite": "10.0.6",
     "@tailwindcss/vite": "^4.1.17",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -83,10 +90,12 @@
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
+    "eslint-plugin-storybook": "10.0.6",
     "globals": "^16.4.0",
     "jsdom": "^27.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "storybook": "10.0.6",
     "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
