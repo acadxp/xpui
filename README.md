@@ -2,7 +2,7 @@
 
 > The Playful React UI Library with pixel-art aesthetics
 
-[![npm version](https://img.shields.io/npm/v/xpui.svg)](https://www.npmjs.com/package/xpui)
+[![npm version](https://img.shields.io/npm/v/xpui.svg)](https://www.npmjs.com/package/@acadxp/xpui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features
