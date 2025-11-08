@@ -2,7 +2,10 @@
   "name": "xpui",
   "version": "0.0.1",
   "description": "The Playful React UI Library",
-  "author": "DripCode-Studio",
+  "author": {
+    "url": "https://github.com/DripCode-Studio",
+    "name": "DripCode-Studio"
+  },
   "type": "module",
   "license": "MIT",
   "repository": {
