@@ -1,9 +1,29 @@
-# 🎮 xpui
+<div align="center">
+  <img src="./public/assets/favicon_io/android-chrome-512x512.png" alt="xpui Logo" width="200"/>
 
 > The Playful React UI Library with pixel-art aesthetics
 
-[![npm version](https://img.shields.io/npm/v/xpui.svg)](https://www.npmjs.com/package/@acadxp/xpui)
+[![npm version](https://img.shields.io/npm/v/@acadxp/xpui.svg)](https://www.npmjs.com/package/@acadxp/xpui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-Ready-38bdf8.svg)](https://tailwindcss.com/)
+
+[Documentation](https://github.com/acadxp/xpui) • [NPM Package](https://www.npmjs.com/package/@acadxp/xpui) • [Report Bug](https://github.com/acadxp/xpui/issues)
+
+</div>
+
+---
+
+## 🌟 Why xpui?
+
+**xpui** is a React UI library designed for developers who want to add a unique, game-inspired aesthetic to their applications. Perfect for:
+
+- 🎮 **Gaming platforms** and educational apps
+- 🎯 **AcadXP ecosystem** projects
+- 🎨 **Creative projects** that need a distinct retro look
+- 🚀 **Modern apps** with a nostalgic twist
+
+Built with modern web technologies and best practices, xpui combines the charm of pixel-art design with the power of React, TypeScript, and Tailwind CSS.
 
 ## ✨ Features
 
@@ -17,11 +37,11 @@
 ## 📦 Installation
 
 ```bash
-npm install xpui
+npm install @acadxp/xpui
 # or
-pnpm add xpui
+pnpm add @acadxp/xpui
 # or
-yarn add xpui
+yarn add @acadxp/xpui
 ```
 
 ### Peer Dependencies
@@ -35,13 +55,13 @@ npm install react react-dom tailwindcss @tailwindcss/vite
 ### 1. Import styles in your app
 
 ```tsx
-import "xpui/styles";
+import "@acadxp/xpui/styles";
 ```
 
 ### 2. Use components
 
 ```tsx
-import { Button } from "xpui";
+import { Button } from "@acadxp/xpui";
 
 function App() {
   return (
@@ -59,7 +79,7 @@ function App() {
 A pixel-art styled button component with multiple variants and sizes.
 
 ```tsx
-import { Button } from 'xpui';
+import { Button } from "@acadxp/xpui";
 
 // Variants
 <Button variant="primary">Primary</Button>
@@ -104,7 +124,7 @@ import { Button } from 'xpui';
 Merge and conditionally apply CSS classes.
 
 ```tsx
-import { cn } from "xpui";
+import { cn } from "@acadxp/xpui";
 
 <Button className={cn("custom-class", isActive && "active-class")}>
   Button
@@ -127,18 +147,58 @@ All components support className overrides for full customization:
 - 🎪 Card
 - 🎨 Badge
 - 📦 Modal
+- 🎭 Tooltip
+- 🎪 Dropdown
 - And more...
+
+## 🛠️ Development
+
+Want to contribute or run locally?
+
+```bash
+# Clone the repository
+git clone https://github.com/acadxp/xpui.git
+cd xpui
+
+# Install dependencies
+pnpm install
+
+# Start Storybook for development
+pnpm dev
+
+# Build the library
+pnpm build
+
+# Run tests
+pnpm test
+```
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## 📄 License
 
 MIT © [DripCode-Studio](https://github.com/DripCode-Studio)
+
+---
 
 ## 🔗 Links
 
 - [NPM Package](https://www.npmjs.com/package/@acadxp/xpui)
 - [GitHub Repository](https://github.com/acadxp/xpui)
 - [Report Issues](https://github.com/acadxp/xpui/issues)
+- [AcadXP Platform](https://github.com/acadxp)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by the AcadXP Team</p>
+  <p>⭐ Star us on GitHub if you find this project helpful!</p>
+</div>
