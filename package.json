@@ -1,7 +1,7 @@
 {
-  "name": "xpui",
+  "name": "@acadxp/xpui",
   "version": "0.1.0-beta.1",
-  "description": "The Playful React UI Library",
+  "description": "Game-inspired React component library for AcadXP",
   "author": {
     "url": "https://github.com/DripCode-Studio",
     "name": "DripCode-Studio"
@@ -55,7 +55,8 @@
     "release:beta": "npm version prerelease --preid=beta && npm publish --tag beta && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:major": "npm version major && npm publish && git push --follow-tags"
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "publish": "npm publish --access public"
   },
   "peerDependencies": {
     "@tailwindcss/vite": "^4.1.17",
