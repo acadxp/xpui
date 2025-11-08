@@ -8,7 +8,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-Ready-38bdf8.svg)](https://tailwindcss.com/)
 
-[Documentation](https://github.com/acadxp/xpui) • [NPM Package](https://www.npmjs.com/package/@acadxp/xpui) • [Report Bug](https://github.com/acadxp/xpui/issues)
+[Documentation](https://xpui.vercel.app/) • [NPM Package](https://www.npmjs.com/package/@acadxp/xpui) • [Report Bug](https://github.com/acadxp/xpui/issues)
 
 </div>
 
