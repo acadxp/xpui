@@ -139,6 +139,6 @@ MIT © [DripCode-Studio](https://github.com/DripCode-Studio)
 
 ## 🔗 Links
 
-- [NPM Package](https://www.npmjs.com/package/xpui)
+- [NPM Package](https://www.npmjs.com/package/@acadxp/xpui)
 - [GitHub Repository](https://github.com/acadxp/xpui)
 - [Report Issues](https://github.com/acadxp/xpui/issues)
