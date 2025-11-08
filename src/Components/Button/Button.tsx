@@ -1,6 +1,5 @@
 import React from "react";
 import { tv, type VariantProps } from "tailwind-variants";
-import { motion } from "framer-motion";
 
 const button = tv({
   base: [
@@ -70,46 +69,22 @@ const button = tv({
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof button> {
-  /**
-   * Enable playful bounce animation on click
-   */
-  playful?: boolean;
-}
+    VariantProps<typeof button> {}
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
-    {
-      className,
-      variant,
-      size,
-      pixelated,
-      playful = true,
-      children,
-      disabled,
-      ...props
-    },
+    { className, variant, size, pixelated, children, disabled, ...props },
     ref
   ) => {
-    const MotionButton = playful ? motion.button : "button";
-
-    const motionProps = playful
-      ? {
-          whileTap: disabled ? {} : { scale: 0.95 },
-          whileHover: disabled ? {} : { scale: 1.02 },
-        }
-      : {};
-
     return (
-      <MotionButton
+      <button
         className={button({ variant, size, pixelated, className })}
-        ref={ref as any}
+        ref={ref}
         disabled={disabled}
-        {...motionProps}
         {...props}
       >
         {children}
-      </MotionButton>
+      </button>
     );
   }
 );
